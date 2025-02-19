@@ -96,6 +96,11 @@ img {
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
 }
 
 .features-icon {
@@ -181,7 +186,7 @@ img {
 }
 
 .nav-link {
-  /* color: #404bbf; */
+  color: #404bbf;
   position: relative;
 }
 
@@ -247,6 +252,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1440px;
 }
 
 .esolutions-hdr {
