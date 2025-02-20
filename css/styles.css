@@ -366,10 +366,10 @@ img {
   justify-content: center;
 }
 
-.team-contact-link-item {
+.team-contact-links-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .team-contact-frame {
@@ -381,8 +381,14 @@ img {
   align-items: center;
   justify-content: center;
   position: relative;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
+
+/* .team-contact-links-item:hover,
+.team-contact-links-item:focus {
+  background-color: #404bbf;
+} */
 
 .team-contact-frame:hover,
 .team-contact-frame:focus {
