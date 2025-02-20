@@ -63,7 +63,6 @@ img {
 }
 
 .effective-solutions {
-  /* padding: 120 15px; */
   margin: 0 auto;
   padding: 188px 0;
 }
@@ -72,10 +71,6 @@ img {
   padding: 120px 0;
   margin: 0 auto;
 }
-
-/* .features-contr {
-   padding: 120px 15px; 
-} */
 
 .features-list {
   display: flex;
@@ -232,10 +227,6 @@ img {
   color: #404bbf;
 }
 
-/* .effective-solutions-contr {
-   padding: 148px 15px; 
-} */
-
 /* оформлення основних секцій */
 .effective-solutions {
   background-color: #2e2f42;
@@ -298,12 +289,9 @@ img {
   margin-bottom: 8px;
 }
 .features-txt {
-  /* font-weight: 400;
-  font-size: 16px; */
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
-  /* padding-top: 8px; */
 }
 
 .team-list {
@@ -334,7 +322,6 @@ img {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
-  /* padding-bottom: 32px; */
 }
 
 .team-item-textcontent {
@@ -369,7 +356,6 @@ img {
 .team-contact-links-item {
   width: 40px;
   height: 40px;
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .team-contact-frame {
@@ -382,22 +368,11 @@ img {
   justify-content: center;
   position: relative;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-
-/* .team-contact-links-item:hover,
-.team-contact-links-item:focus {
-  background-color: #404bbf;
-} */
 
 .team-contact-frame:hover,
 .team-contact-frame:focus {
   background-color: #404bbf;
-}
-
-.bottom-contact-frame:hover,
-.bottom-contact-frame:focus {
-  background-color: #31d0aa;
 }
 
 .team-contact-icon {
@@ -534,7 +509,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  /* margin-top: 16px; */
 }
 
 .bottom-social-media-header {
@@ -552,16 +526,11 @@ img {
 .bottom-social-links {
   display: flex;
   gap: 16px;
-  /* align-items: center;
-  justify-content: center; */
-  /* margin-left: 16px;
-  margin-right: 16px; */
 }
 
 .bottom-social-links-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bottom-contact-frame {
@@ -573,7 +542,12 @@ img {
   align-items: center;
   justify-content: center;
   position: relative;
-  /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bottom-contact-frame:hover,
+.bottom-contact-frame:focus {
+  background-color: #31d0aa;
 }
 
 .bottom-contact-icon {
